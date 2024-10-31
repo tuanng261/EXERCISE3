@@ -1,0 +1,136 @@
+body {
+    background-color: #F6DBA7;
+}
+
+.menu-container {
+    border-top: thin solid #2F3A2A;
+    border-bottom: thin solid #2F3A2A;
+}
+
+.big-logo img {
+    width: 25rem;
+    height: auto;
+}
+
+#menu li a {
+    color: #2F3A2A;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Paquito-Variable';
+}
+
+#stick {
+    margin: 0 1rem;
+}
+
+.Since h1 {
+    font-family: 'Paquito-Variable';
+    font-size: 1.25rem;
+    color: #2F3A2A;
+    word-spacing: 0.4rem;
+}
+
+/* Main Section */
+.Main-section {
+    background-color: #2F3A2A;
+    background-image: url(img/Frame\ 4\ \(1\).svg);
+    background-size: cover;
+}
+
+.quotes h1 {
+    font-family: 'Telma-Variable';
+    font-size: 4.6rem;
+    color: #F6DBA7;
+}
+
+.quotes h2 {
+    font-size: 1.5rem;
+    font-family: 'Paquito-Variable';
+    color: #FFF9ED;
+    line-height: 1.5;
+}
+
+.quotes h2 span {
+    color: #F6DBA7;
+}
+
+.button1 li a {
+    font-family: 'Paquito-Variable';
+    color: #2F3A2A;
+    background-color: #F6DBA7;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border: solid #2F3A2A;
+    transition: all 0.3s ease-in-out;
+}
+
+.button1 li a:hover {
+    color: #F6DBA7;
+    background-color: #2F3A2A;
+    border: solid #F6DBA7;
+}
+
+.Description-1 h1, .Description-2 h1 {
+    font-size: 3.5rem;
+    font-family: 'Paquito-Variable';
+    color: #2F3A2A;
+}
+
+.Description-1 p, .Description-2 p {
+    font-size: 1.6rem;
+    font-family: 'Paquito-Variable';
+    color: #2F3A2A;
+}
+
+.Pic1 img, .Pic2 img {
+    border-radius: 2rem;
+    border: thin solid;
+}
+
+.Pic1 img:hover, .Pic2 img:hover {
+    transform: rotate(5deg);
+}
+
+/* Final Section */
+.title{
+    background-color: #2F3A2A;
+}
+.title h1 {
+    font-size: 3.5rem;
+    color: #F6DBA7;
+    font-family: 'Paquito-Variable';
+    word-spacing: 0.4rem;
+}
+
+.commitment h1 {
+    font-size: 1.6rem;
+    font-family: 'Paquito-Variable';
+    color: #2F3A2A;
+}
+
+/* Footer */
+.footer h1 {
+    font-family: 'Paquito-Variable';
+    font-size: 3.6rem;
+    color: #2F3A2A;
+}
+
+@font-face {
+    font-family: 'Paquito-Variable';
+    src: url('fonts/Paquito-Variable.woff2') format('woff2'),
+         url('fonts/Paquito-Variable.woff') format('woff'),
+         url('fonts/Paquito-Variable.ttf') format('truetype');
+    font-weight: 300 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Telma-Variable';
+    src: url('font2/Telma-Variable.woff2') format('woff2'),
+         url('font2/Telma-Variable.woff') format('woff'),
+         url('font2/Telma-Variable.ttf') format('truetype');
+    font-weight: 300 900;
+    font-style: normal;
+}
+
+  
